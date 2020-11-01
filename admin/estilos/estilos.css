@@ -1,0 +1,44 @@
+@import url("../../estilos/estilos.css");
+
+#encabezadoAdmin{
+	text-align: left;
+}
+
+#logoAdmin{
+	width: 120px;
+	margin-right: 20px;
+}
+
+#iframeHeader, #iframeFooter{
+	width: 100%;
+	border:none;
+}
+
+#iframeHeader{
+	height: 200px;
+}
+
+#iframeHeader, #iframeFooter{
+	width: 100%;
+}
+
+.table img{
+	cursor: pointer;
+}
+@media screen and (max-width:768px){
+	#iframeHeader, #iframeFooter{
+		height: 350px;
+	}
+	#encabezadoAdmin{
+		text-align: center;
+		display: block;
+		/*color: red;*/
+	}
+
+	#logoAdmin{
+		width: 100px;
+	}
+	.x{
+		display: none;
+	}
+}
