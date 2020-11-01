@@ -1,5 +1,4 @@
 FROM debian
-MAINTAINER Maria Romero Angulo "m.romeroangulo@gmail.com"
 
 ARG DOCUMENTROOT=/srv/
 ARG SERVER_NAME=_
