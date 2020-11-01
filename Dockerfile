@@ -7,6 +7,7 @@ ENV DOCUMENTROOT=$DOCUMENTROOT
 ENV SERVER_NAME=$SERVER_NAME
 
 COPY estilos/ $DOCUMENTROOT/estilos
+COPY img/ $DOCUMENTROOT/img
 COPY index.html $DOCUMENTROOT/index.html
 COPY init.sh /init.sh
 
